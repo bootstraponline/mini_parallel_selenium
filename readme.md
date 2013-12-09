@@ -1,4 +1,4 @@
-```
+```ruby
 $ rake parallel:test
 Command: /.rvm/gems/ruby-2.0.0-p247/gems/parallel_tests-0.16.5/lib/parallel_tests/../../bin/parallel_test test --type test -n  --pattern '' --test-options ''
 Looking in ["test"]
