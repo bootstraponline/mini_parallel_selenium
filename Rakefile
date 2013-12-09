@@ -22,6 +22,6 @@ rake parallel:test[count,pattern,options]              # run test in parallel wi
 runner.rb
 
   def test_suffix
-    /_(test|spec).rb$/
+    /_(test|spec).rb$/ # must patch to /.rb$/
   end
 =end
