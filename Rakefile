@@ -16,4 +16,12 @@ rake parallel:rake[command]                            # launch given rake comma
 rake parallel:seed[count]                              # load the seed data from db/seeds.rb via db:seed --> parallel:seed[num_cpus]
 rake parallel:spec[count,pattern,options]              # run spec in parallel with parallel:spec[num_cpus]
 rake parallel:test[count,pattern,options]              # run test in parallel with parallel:test[num_cpus]
+
+
+# from parallel_tests
+runner.rb
+
+  def test_suffix
+    /_(test|spec).rb$/
+  end
 =end
